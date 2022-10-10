@@ -24,7 +24,7 @@ public class Student {
         s.name = "猪八戒";
         s.study();
 
-        // 3.对象.静态方法
+        // 3.对象.静态方法(不推荐)
         System.out.println(s.getMax(10, 32));
 
 

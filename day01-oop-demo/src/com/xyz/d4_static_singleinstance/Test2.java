@@ -7,5 +7,6 @@ public class Test2 {
         SingleInstance2 s2 = SingleInstance2.getInstance();
         System.out.println(s1);
         System.out.println(s2);
+        System.out.println(s1 == s2);
     }
 }

@@ -24,7 +24,10 @@ class Phone {
 
 class NewPhone extends Phone {
     // 重写的方法
-    @Override // 1.重写校验注解 加上之后 这个方法必须是正确重写的 这样更安全 2.提高程序的可读性,代码优雅
+    // 1.重写校验注解 加上之后 这个方法必须是正确重写的 这样更安全 2.提高程序的可读性,代码优雅
+    // 注意:重写方法的名称 形参列表必须与被重写方法的名称和参数列表一致
+    // 私有方法不能被重写
+    @Override
     public void call() {
         super.call();// 先用他爸的基本功能
         System.out.println("开始视频通话");

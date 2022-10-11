@@ -31,6 +31,8 @@ class Dog extends Animal {
         System.out.println(name);
         System.out.println(this.name);// 当前子类对象的name
         System.out.println(super.name);// 父类的name
+        run();// 子类的run
+        super.run();// 找父类的方法
     }
 
     public void run() {

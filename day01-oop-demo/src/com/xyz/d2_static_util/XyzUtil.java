@@ -23,4 +23,8 @@ public class XyzUtil {
 //        System.out.println("验证码" + code);
         return code;
     }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
 }

@@ -27,7 +27,7 @@ public class Test2 {
         System.out.println(t.name);
 //        t.name = "孙悟空";
 
-        // final修饰引用类型的变量,其地址值不能改变,但是指向的对象的内容可以改变
+        // final修饰引用类型的变量,其地址值不能改变,但指向的对象的内容可以改变
         final Teacher t2 = new Teacher("教课");
         System.out.println(t2.getHobby());
 //        t2 = null; // 地址不能改变

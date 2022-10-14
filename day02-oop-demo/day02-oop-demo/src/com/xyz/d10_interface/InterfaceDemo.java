@@ -7,7 +7,7 @@ public interface InterfaceDemo {
     // 接口中的成分特点: JDk 8之前接口只能有抽象方法和常量
     // 1.常量
 
-    static final String SCHOOL_name = "黑马";
+    String SCHOOL_name = "黑马";
 //    static final String SCHOOL_name = "黑马";
 
     void run();

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day01-oop-demo/day01-oop-demo.iml" filepath="$PROJECT_DIR$/day01-oop-demo/day01-oop-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02-oop-demo/day02-oop-demo/day02-oop-demo.iml" filepath="$PROJECT_DIR$/day02-oop-demo/day02-oop-demo/day02-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-oop-demo/aaa/aaa.iml" filepath="$PROJECT_DIR$/day03-oop-demo/aaa/aaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d/d/d.iml" filepath="$PROJECT_DIR$/d/d/d.iml" />
       <module fileurl="file://$PROJECT_DIR$/../day03-oop-demo/day03-oop-demo.iml" filepath="$PROJECT_DIR$/../day03-oop-demo/day03-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" filepath="$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" filepath="$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" filepath="$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtest/test/test.iml" filepath="$PROJECT_DIR$/dtest/test/test.iml" />
     </modules>
   </component>
 </project>

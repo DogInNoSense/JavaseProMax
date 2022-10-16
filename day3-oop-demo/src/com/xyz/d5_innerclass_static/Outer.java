@@ -1,4 +1,4 @@
-package com.xyz.d5_innerClass_static;
+package com.xyz.d5_innerclass_static;
 
 /*
 外部类

@@ -1,4 +1,4 @@
-package com.xyz.d5_innerClass_static;
+package com.xyz.d5_innerclass_static;
 
 public class Test {
     public static void main(String[] args) {

@@ -11,8 +11,10 @@ public class Test {
         String s2 = new String("xyz");
 //        System.out.println(s1.equals(s2)); // 空指针异常
         System.out.println(Objects.equals(s1, s2));  // 更安全 结果也正确
+
+        System.out.println(Objects.isNull(s1));
     }
-    
+
 
 /*
    public static boolean equals(Object a, Object b) {
@@ -20,5 +22,6 @@ public class Test {
     }
 
  */
+
 
 }

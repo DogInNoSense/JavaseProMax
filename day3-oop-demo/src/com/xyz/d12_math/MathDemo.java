@@ -24,5 +24,9 @@ public class MathDemo {
         System.out.println(Math.round(4.50001));
 
         System.out.println(Math.random()); // 范围:0.0-1.0 左闭右开
+
+        // 3 - 9 之间的随机数 (0 - 6) + 3
+        int data = (int) (Math.random() * 7) + 3;
+        System.out.println(data);
     }
 }

@@ -26,7 +26,7 @@ public class StringBuilderTest2 {
             sb.append("]");
             return sb.toString();
         } else {
-            return "[]"; // null
+            return "[]"; //
         }
     }
 }

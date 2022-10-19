@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day03-oop-demo/aaa/aaa.iml" filepath="$PROJECT_DIR$/day03-oop-demo/aaa/aaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-lambda-app/api-lambda-app.iml" filepath="$PROJECT_DIR$/api-lambda-app/api-lambda-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/d/d/d.iml" filepath="$PROJECT_DIR$/d/d/d.iml" />
       <module fileurl="file://$PROJECT_DIR$/../day03-oop-demo/day03-oop-demo.iml" filepath="$PROJECT_DIR$/../day03-oop-demo/day03-oop-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" filepath="$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" />

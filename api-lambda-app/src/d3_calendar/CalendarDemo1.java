@@ -8,7 +8,7 @@ public class CalendarDemo1 {
         // 1.拿到系统此刻日历对象
         Calendar cal = Calendar.getInstance();
         System.out.println(cal);
-        // 2.获取日历信息
+        // 2.获取日历信息 get
         int year = cal.get(Calendar.YEAR);
         System.out.println(year);
         int month = cal.get(Calendar.MONTH) + 1;

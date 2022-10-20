@@ -1,4 +1,4 @@
-package d3_calendar;
+package com.xyz.d3_calendar;
 
 import java.util.Calendar;
 import java.util.Date;

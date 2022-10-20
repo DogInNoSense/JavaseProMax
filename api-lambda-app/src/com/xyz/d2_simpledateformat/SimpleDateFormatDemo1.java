@@ -1,4 +1,4 @@
-package d2_simpledateformat;
+package com.xyz.d2_simpledateformat;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

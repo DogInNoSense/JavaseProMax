@@ -33,7 +33,6 @@ public class RegexTest3 {
         while (true) {
             System.out.println("请输入您的注册邮箱:");
             String email = sc1.next();
-//            email.matches("\\w{1,30}@[a-zA-z0-9]{2,30}(\\.[a-zA-z0-9]{2,30}){1,2}]")
             if (email.matches("\\w{1,30}@[a-zA-z0-9]{2,10}(\\.[a-zA-z0-9]{2,20}){1,2}")) {
                 System.out.println("匹配正确,注册完成!");
                 break;

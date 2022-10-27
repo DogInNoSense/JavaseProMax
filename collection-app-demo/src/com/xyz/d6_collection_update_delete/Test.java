@@ -24,7 +24,7 @@ public class Test {
 //            String ele = it.next();
 //            if ("java".equals(ele)) {
 ////                list.remove("java");
-//                it.remove(); // 删除当前元素,并且不会后移 相当于 i--
+//                it.remove(); // 迭代器自己的方法删除当前元素,并且不会后移 相当于 i--
 //            }
 //        }
 //        System.out.println(list);

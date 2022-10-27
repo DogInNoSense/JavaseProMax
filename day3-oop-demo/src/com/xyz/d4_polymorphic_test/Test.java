@@ -17,7 +17,7 @@ public class Test {
         c.installUSB(u1);
 
         System.out.println("-------------------------");
-        USB u2 = new KeyBoard("罗技鼠标");
+        USB u2 = new Mouse("罗技鼠标");
         c.installUSB(u2);
 
 

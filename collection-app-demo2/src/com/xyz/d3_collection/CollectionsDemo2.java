@@ -18,13 +18,14 @@ public class CollectionsDemo2 {
         System.out.println(apples);
 
         // 方式2: sort方法自带比较器对象
-        Collections.sort(apples, new Comparator<Apple>() {
-            @Override
-            public int compare(Apple o1, Apple o2) {
-                return Double.compare(o1.getPrice(), o2.getPrice());
-            }
-        });
+//        Collections.sort(apples, new Comparator<Apple>() {
+//            @Override
+//            public int compare(Apple o1, Apple o2) {
+//                return Double.compare(o1.getPrice(), o2.getPrice());
+//            }
+//        });
 
+        Collections.sort(apples, (o1, o2) -> Double.compare(o1.getPrice(), o2.getPrice()));
         System.out.println(apples);
     }
 }

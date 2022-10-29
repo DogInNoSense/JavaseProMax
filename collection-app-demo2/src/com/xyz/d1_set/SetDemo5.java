@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /*
+TreeSet集合 基于红黑树
 TreeSet对于有值特性的数据如何排序
 对自定义类型的对象进行指定规则排序
  */
@@ -28,6 +29,9 @@ public class SetDemo5 {
         sets1.add("UI");
         System.out.println(sets1);  // 按首字母编号排序
 
+
+        sets1.remove("中国");
+        System.out.println(sets1);
 
         System.out.println("-------------------------");
         // 方式2: 集合自带比较器对象进行规则定制

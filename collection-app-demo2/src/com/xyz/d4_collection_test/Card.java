@@ -1,4 +1,4 @@
-package d4_collection_test;
+package com.xyz.d4_collection_test;
 
 public class Card {
     private String size;

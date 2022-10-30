@@ -1,4 +1,4 @@
-package d4_collection_test;
+package com.xyz.d4_collection_test;
 
 import java.util.ArrayList;
 import java.util.Collections;

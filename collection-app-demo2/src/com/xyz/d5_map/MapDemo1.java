@@ -3,7 +3,7 @@ package com.xyz.d5_map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MaoDemo1 {
+public class MapDemo1 {
     public static void main(String[] args) {
         // map体系的特点: 按照键无序,不重复,无索引,值不做要求
         // 1.创建一个map对象

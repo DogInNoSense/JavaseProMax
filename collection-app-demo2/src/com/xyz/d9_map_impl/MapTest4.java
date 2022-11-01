@@ -33,6 +33,7 @@ public class MapTest4 {
         Collection<List<String>> values = data.values();
         // values = [[A,B,C,D],[B,C,D],[A,C]]
         //              value
+        // java中<>表示使用泛型，Array<List<String>>表示的意思是一个数组里面存放的是list集合，而该list集合中存储的是字符串类型的数据
         for (List<String> value : values) {
             for (String s : value) {
                 // 有没有包含这个景点

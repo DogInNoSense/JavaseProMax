@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" filepath="$PROJECT_DIR$/day1-oop-demo/day1-oop-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" filepath="$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" filepath="$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logback-app/logback-app.iml" filepath="$PROJECT_DIR$/logback-app/logback-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" filepath="$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" filepath="$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtest/test/test.iml" filepath="$PROJECT_DIR$/dtest/test/test.iml" />
     </modules>

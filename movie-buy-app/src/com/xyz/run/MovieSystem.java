@@ -4,8 +4,15 @@ import com.xyz.bean.Business;
 import com.xyz.bean.Customer;
 import com.xyz.bean.Movie;
 import com.xyz.bean.User;
+import org.slf4j.Logger;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
+
 
 public class MovieSystem {
     /*
@@ -21,6 +28,8 @@ public class MovieSystem {
     public static final Scanner SYS_SC = new Scanner(System.in);
     // 定义一个静态的User类型的变量记录当前登录成功的用户对象
     public static User loginUser;
+    public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+    public static final Logger LOGGER = LoggerFactory.getLogger("MovieSystem.class");
 
     /*
     3.准备一些测试数据
@@ -119,6 +128,7 @@ public class MovieSystem {
                 if (u.getPassWord().equals(passWord)) {
                     // 登录成功了
                     loginUser = u; // 记住登录成功的用户
+                    LOGGER.info(u.getUserName() + "登录了系统");
                     //判断是用户登录还是商家登录
                     if (u instanceof Customer) {
                         // 用户
@@ -154,7 +164,7 @@ public class MovieSystem {
             switch (command) {
                 case "1":
                     // 展示全部信息
-                    queryMySelf();
+                    showBusinessInfos();
                     break;
                 case "2":
                     // 上架电影信息
@@ -169,7 +179,6 @@ public class MovieSystem {
 
                     break;
                 case "5":
-
                     System.out.println(loginUser.getUserName() + "您好,您成功退出了系统!");
                     return; //结束方法
                 default:
@@ -179,16 +188,66 @@ public class MovieSystem {
         }
     }
 
+    /**
+     * 展示当前登录的商家的全部信息
+     */
+    private static void showBusinessInfos() {
+        // 根据商家对象,作为Map集合的键 提取对应的值就是排片信息: Map<Business,List<Movie>>ALL_MOVIES
+        System.out.println("==================商家详情界面=================");
+        LOGGER.info(loginUser.getUserName() + "商家,正在看自己的详情");
+        Business business = (Business) loginUser;
+        System.out.println(business.getShopName() + "\t\t电话" + business.getPhone() + "\t\t地址" + business.getAddress());
+        List<Movie> movies = All_MOVIES.get(business); // 拿到影片信息
+        if (movies.size() > 0) {
+            System.out.println("片名\t\t主演\t\t时长\t\t评分\t\t票价\t\t余票数量\t\t放映时间");
+            for (Movie movie : movies) {
+                System.out.println(movie.getName() + "\t\t\t" + movie.getActor() + "\t\t" + movie.getTime() + "\t\t" + movie.getScore() + "\t\t"
+                        + movie.getPrice() + "\t\t" + movie.getNumber() + "\t\t" + sdf.format(movie.getStartTime()));
+            }
+        } else {
+            System.out.println("您的店铺当前无片可播!");
+        }
+
+    }
+
     private static void deleteMovies() {
     }
 
+    /**
+     * 商家进行电影上架
+     */
     private static void addMovies() {
+        Business business = (Business) loginUser;
+        System.out.println(business.getShopName() + "\t\t电话" + business.getPhone() + "\t\t地址" + business.getAddress());
+        List<Movie> movies = All_MOVIES.get(business); // 拿到影片信息
+
+        System.out.println("请输入新片名");
+        String name = SYS_SC.nextLine();
+        System.out.println("请输入主演");
+        String actor = SYS_SC.nextLine();
+        System.out.println("请输入时长");
+        String time = SYS_SC.nextLine();
+        System.out.println("请输入票价");
+        String price = SYS_SC.nextLine();
+        System.out.println("请输入票数");
+        String totalNumber = SYS_SC.nextLine();
+        while (true) {
+            try {
+                System.out.println("请输入影片放映时间");
+                String stime = SYS_SC.nextLine();
+                Movie movie = new Movie(name, actor, Double.valueOf(time), Double.valueOf(price), Integer.valueOf(totalNumber),
+                        sdf.parse(stime));
+                movies.add(movie);
+                System.out.println("成功上架了:" + movie.getName());
+                return; // 直接退出
+            } catch (ParseException e) {
+                e.printStackTrace();
+                LOGGER.info("时间解析出错");
+            }
+        }
 
     }
 
-    private static void queryMySelf() {
-
-    }
 
     /**
      * 客户操作界面

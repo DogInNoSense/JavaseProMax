@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" filepath="$PROJECT_DIR$/day2-oop-demo/day2-oop-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" filepath="$PROJECT_DIR$/day3-oop-demo/day3-oop-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/file-io-app/file-io-app.iml" filepath="$PROJECT_DIR$/file-io-app/file-io-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-app2/io-app2.iml" filepath="$PROJECT_DIR$/io-app2/io-app2.iml" />
       <module fileurl="file://$PROJECT_DIR$/logback-app/logback-app.iml" filepath="$PROJECT_DIR$/logback-app/logback-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" filepath="$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" filepath="$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" />

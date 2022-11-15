@@ -10,7 +10,6 @@ public class OutputStreamWriterDemo2 {
         // 1.定义一个字节输出流
         OutputStream os = new FileOutputStream("io-app2/src/out1.txt");
 
-
         // 2.把原始的字节输出流转换成字符输出流
 //        Writer isw = new OutputStreamWriter(os); // 以默认的UTF-8写字符出去
         Writer osw = new OutputStreamWriter(os, "GBK"); // 指定GBK的方式写字符出去

@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" filepath="$PROJECT_DIR$/movie-buy-app/movie-buy-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" filepath="$PROJECT_DIR$/stream-exception-log-app/stream-exception-log-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtest/test/test.iml" filepath="$PROJECT_DIR$/dtest/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread-app/thread-app.iml" filepath="$PROJECT_DIR$/thread-app/thread-app.iml" />
     </modules>
   </component>
 </project>

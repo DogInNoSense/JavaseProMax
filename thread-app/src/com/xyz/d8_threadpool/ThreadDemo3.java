@@ -16,6 +16,15 @@ public class ThreadDemo3 {
         pool.execute(new MyRunnable());
         pool.execute(new MyRunnable());
         pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
+        pool.execute(new MyRunnable()); // 已经没有多余线程了
 
     }
 }

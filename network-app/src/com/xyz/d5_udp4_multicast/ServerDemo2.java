@@ -34,6 +34,5 @@ public class ServerDemo2 {
             System.out.println("收到了来自:" + packet.getAddress() + ",对方端口是" + packet.getPort() + "消息是:" + rs);
 
         }
-
     }
 }

@@ -1,11 +1,35 @@
 package com.xyz.d1_unit;
 
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
 
 
 public class TestUserService {
+    // 修饰实例方法
+    // 每个测试方法之前测试一次
+    @Before
+    public void before() {
+        System.out.println("before执行一次");
+    }
+
+    // 每个测试方法之后执行一次
+    @After
+    public void after() {
+        System.out.println("after执行一次");
+    }
+
+    @BeforeClass
+    public static void beforeClass() {
+        System.out.println("beforeClass执行一次");
+    }
+
+    // 每个测试方法之后执行一次
+    @AfterClass
+    public static void afterClass() {
+        System.out.println("afterClass执行一次");
+    }
+
+
     /**
      * 测试方法
      * 1. 必须是公开的 无参数 无返回值的方法

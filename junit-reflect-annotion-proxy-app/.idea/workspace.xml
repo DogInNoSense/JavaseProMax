@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d1_unit/TestUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d1_unit/UserService.java" afterDir="false" />
+    <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d2_reflect/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d2_reflect/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/junit-reflect-annotion-proxy-app/com/xyz/d1_unit/TestUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-reflect-annotion-proxy-app/com/xyz/d1_unit/TestUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xyz/d1_unit/TestUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xyz/d1_unit/TestUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestUserService">
-    <configuration name="TestUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d1_unit.TestUserService" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d2_reflect.Test" />
       <module name="junit-reflect-annotion-proxy-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyz.d1_unit.*" />
+          <option name="PATTERN" value="com.xyz.d2_reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d1_unit.UserService" />
+    <configuration name="TestUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d1_unit.TestUserService" />
       <module name="junit-reflect-annotion-proxy-app" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.TestUserService" />
-        <item itemvalue="JUnit.TestUserService.testSelectNames" />
         <item itemvalue="JUnit.TestUserService.testLoginName" />
+        <item itemvalue="JUnit.TestUserService.testSelectNames" />
         <item itemvalue="Application.TestUserService" />
-        <item itemvalue="Application.UserService" />
       </list>
     </recent_temporary>
   </component>
@@ -142,8 +142,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669378295392</updated>
       <workItem from="1669378297019" duration="1124000" />
-      <workItem from="1669379441219" duration="1122000" />
+      <workItem from="1669379441219" duration="2009000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1669380644182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669380644182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

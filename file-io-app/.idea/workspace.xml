@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c35d6e70-a2be-40da-94f2-cc57829a125a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-reflect-annotation-proxy-app/src/com/xyz/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d1_unit/TestUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d1_unit/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d2_reflect/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d2_reflect/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d3_reflect_constrcutor/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d3_reflect_constrcutor/TestStudent01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d3_reflect_constrcutor/TestStudent02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d4_reflect_field/FieldDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d4_reflect_field/FieldDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d4_reflect_field/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d5_reflect_method/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/out/production/junit-reflect-annotion-proxy-app/com/xyz/d5_reflect_method/MethodDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d1_unit/TestUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d1_unit/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d2_reflect/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d2_reflect/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d3_reflect_constrcutor/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d3_reflect_constrcutor/TestStudent01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d3_reflect_constrcutor/TestStudent02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d4_reflect_field/FieldDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d4_reflect_field/FieldDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d4_reflect_field/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d5_reflect_method/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit-reflect-annotion-proxy-app/src/com/xyz/d5_reflect_method/MethodDemo1.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IahvdvgXTKMdcaGrMepmF69Lus" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Code/Java/JavaseProMax"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.FileReaderDemo1">
+    <configuration name="FileReaderDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d6_char_stream.FileReaderDemo1" />
+      <module name="file-io-app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyz.d6_char_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d6_char_stream.FileReaderDemo2" />
+      <module name="file-io-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyz.d6_char_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FileReaderDemo1" />
+      <item itemvalue="Application.FileReaderDemo2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileReaderDemo1" />
+        <item itemvalue="Application.FileReaderDemo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c35d6e70-a2be-40da-94f2-cc57829a125a" name="Changes" comment="" />
+      <created>1670425833468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670425833468</updated>
+      <workItem from="1670425834663" duration="1189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

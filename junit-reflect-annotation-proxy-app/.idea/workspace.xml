@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/AnnotationDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/AnnotationDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/MyBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/AnnotationDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/Book1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +55,7 @@
       <recent name="com.xyz.d4_reflect_field" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.xyz.d7_reflect_framework.ReflectDemo">
+  <component name="RunManager" selected="JUnit.AnnotationDemo3.parseClass">
     <configuration name="ReflectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyz.d6_reflect_genericity.ReflectDemo" />
       <module name="junit-reflect-annotation-proxy-app" />
@@ -99,17 +96,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnnotationDemo3.parseClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-reflect-annotation-proxy-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyz.d5_reflect_method.*" />
+          <option name="PATTERN" value="com.xyz.d8_annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xyz.d5_reflect_method" />
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d5_reflect_method.MethodDemo1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.xyz.d8_annotation" />
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d8_annotation.AnnotationDemo3" />
+      <option name="METHOD_NAME" value="parseClass" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,16 +132,16 @@
       <item itemvalue="Application.test" />
       <item itemvalue="Application.com.xyz.d7_reflect_framework.ReflectDemo" />
       <item itemvalue="Application.ReflectDemo" />
-      <item itemvalue="JUnit.MethodDemo1" />
+      <item itemvalue="JUnit.AnnotationDemo3.parseClass" />
       <item itemvalue="JUnit.MethodDemo1.getDeclaredMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnnotationDemo3.parseClass" />
         <item itemvalue="Application.com.xyz.d7_reflect_framework.ReflectDemo" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ReflectDemo" />
         <item itemvalue="JUnit.MethodDemo1.getDeclaredMethod" />
-        <item itemvalue="JUnit.MethodDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +158,7 @@
       <workItem from="1669434998404" duration="3546000" />
       <workItem from="1670422444370" duration="1561000" />
       <workItem from="1670424128123" duration="3968000" />
-      <workItem from="1670514070363" duration="1886000" />
+      <workItem from="1670514070363" duration="2852000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1669380644182</created>
@@ -204,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670514367502</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1670516046923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670516046923</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

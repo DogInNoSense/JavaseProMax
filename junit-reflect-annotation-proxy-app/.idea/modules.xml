@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/junit-reflect-annotation-proxy-app.iml" filepath="$PROJECT_DIR$/junit-reflect-annotation-proxy-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xml-app/xml-app.iml" filepath="$PROJECT_DIR$/../xml-app/xml-app.iml" />
     </modules>
   </component>
 </project>

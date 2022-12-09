@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jaxen_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/lib/jaxen-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d1_dom4j/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d1_dom4j/Dom4JHelloWorldDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d1_dom4j/Dom4JTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d2_xpath/XPathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d3_factory_pattern/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d3_factory_pattern/FactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d3_factory_pattern/FactoryPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d3_factory_pattern/Huawei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d3_factory_pattern/Mac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d4_decorator_pattern/BufferInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d4_decorator_pattern/DecoratorPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d4_decorator_pattern/FileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/src/com/xyz/d4_decorator_pattern/InputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/xmldata/data.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/xmldata/data.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/xmldata/hello_world.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/xmldata/hello_world_dtd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xml-app/xmldata/hello_world_schema.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/Code/Java/JavaseProMax",
+    "last_opened_file_path": "E:/Code/Java/JavaseProMax/xml-app/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -73,6 +48,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Java\JavaseProMax\xml-app\src" />
+      <recent name="E:\Code\Java\JavaseProMax\xml-app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\Java\JavaseProMax\xml-app\lib" />
     </key>
@@ -81,57 +60,66 @@
       <recent name="com.xyz.d4_reflect_field" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorPattern">
-    <configuration name="DecoratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d4_decorator_pattern.DecoratorPattern" />
+  <component name="RunManager" selected="JUnit.XPathDemo">
+    <configuration name="XPathDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xml-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyz.d4_decorator_pattern.*" />
+          <option name="PATTERN" value="com.xyz.d2_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d3_factory_pattern.FactoryDemo" />
-      <module name="xml-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyz.d3_factory_pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.xyz.d10_proxy2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d10_proxy2.Test" />
-      <module name="junit-reflect-annotation-proxy-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyz.d10_proxy2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dom4JHelloWorldDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyz.d1_dom4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xyz.d1_dom4j" />
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d1_dom4j.Dom4JHelloWorldDemo1" />
+      <option name="PACKAGE_NAME" value="com.xyz.d2_xpath" />
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d2_xpath.XPathDemo" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XPathDemo.parse01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.d2_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.d2_xpath" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.d2_xpath.XPathDemo" />
+      <option name="METHOD_NAME" value="parse01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XPathDemo.parse02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.d2_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.d2_xpath" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.d2_xpath.XPathDemo" />
+      <option name="METHOD_NAME" value="parse02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XPathDemo.parse03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xml-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.d2_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.d2_xpath" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.d2_xpath.XPathDemo" />
+      <option name="METHOD_NAME" value="parse03" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecoratorPattern" />
-      <item itemvalue="Application.FactoryDemo" />
-      <item itemvalue="Application.com.xyz.d10_proxy2.Test" />
-      <item itemvalue="JUnit.Dom4JHelloWorldDemo1" />
+      <item itemvalue="JUnit.XPathDemo" />
+      <item itemvalue="JUnit.XPathDemo.parse01" />
+      <item itemvalue="JUnit.XPathDemo.parse02" />
+      <item itemvalue="JUnit.XPathDemo.parse03" />
       <item itemvalue="JUnit.XPathDemo.parse04" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecoratorPattern" />
-        <item itemvalue="Application.FactoryDemo" />
-        <item itemvalue="JUnit.Dom4JHelloWorldDemo1" />
+        <item itemvalue="JUnit.XPathDemo" />
+        <item itemvalue="JUnit.XPathDemo.parse01" />
+        <item itemvalue="JUnit.XPathDemo.parse02" />
+        <item itemvalue="JUnit.XPathDemo.parse03" />
         <item itemvalue="JUnit.XPathDemo.parse04" />
-        <item itemvalue="Application.com.xyz.d10_proxy2.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +171,7 @@
       <workItem from="1670422444370" duration="1561000" />
       <workItem from="1670424128123" duration="3968000" />
       <workItem from="1670514070363" duration="3570000" />
-      <workItem from="1670556328106" duration="16908000" />
+      <workItem from="1670556328106" duration="17233000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1669380644182</created>
@@ -255,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670562102949</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="first commit">
+      <created>1670586420474</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670586420474</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first commit">
+      <created>1670586431573</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670586431573</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

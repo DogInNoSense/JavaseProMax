@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d494a3-5a4a-4651-ba53-dee7e4a7b70a" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/com/xyz/d8_annotation/AnnotationDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d10_proxy2/ProxyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d10_proxy2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d10_proxy2/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d10_proxy2/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d9_proxy/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d9_proxy/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d9_proxy/StarAgentProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xyz/d9_proxy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/Java/JavaseProMax&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Code/Java/JavaseProMax",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xyz.d7_reflect_framework" />
       <recent name="com.xyz.d4_reflect_field" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationDemo4">
+  <component name="RunManager" selected="Application.com.xyz.d10_proxy2.Test">
     <configuration name="AnnotationDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xyz.d8_annotation.AnnotationDemo4" />
       <module name="junit-reflect-annotation-proxy-app" />
@@ -68,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.d6_reflect_genericity.ReflectDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d9_proxy.Test" />
       <module name="junit-reflect-annotation-proxy-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xyz.d6_reflect_genericity.*" />
+          <option name="PATTERN" value="com.xyz.d9_proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.xyz.d10_proxy2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyz.d10_proxy2.Test" />
+      <module name="junit-reflect-annotation-proxy-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyz.d10_proxy2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +110,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xyz.d7_reflect_framework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyz.test" />
-      <module name="junit-reflect-annotation-proxy-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xyz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,18 +135,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnnotationDemo4" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.com.xyz.d10_proxy2.Test" />
       <item itemvalue="Application.com.xyz.d7_reflect_framework.ReflectDemo" />
-      <item itemvalue="Application.ReflectDemo" />
       <item itemvalue="JUnit.AnnotationDemo3.parseClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.xyz.d10_proxy2.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AnnotationDemo4" />
         <item itemvalue="JUnit.AnnotationDemo3.parseClass" />
         <item itemvalue="Application.com.xyz.d7_reflect_framework.ReflectDemo" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.ReflectDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,7 @@
       <workItem from="1670422444370" duration="1561000" />
       <workItem from="1670424128123" duration="3968000" />
       <workItem from="1670514070363" duration="3570000" />
-      <workItem from="1670556328106" duration="632000" />
+      <workItem from="1670556328106" duration="4424000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1669380644182</created>
@@ -213,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670517491973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1670557018340</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670557018340</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
